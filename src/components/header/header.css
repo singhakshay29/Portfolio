@@ -62,7 +62,7 @@ header{
 /*-------------Media Queries--------------*/
 
 
-@media only screen and(max-width: 1024px){
+/* @media only screen and(max-width: 1024px){
     header{
         height:68vh;
     }
@@ -77,8 +77,8 @@ header{
     .header__Socials,.scroll__down{
         display: none;
     }
-    
 }
+*/
 
 
 

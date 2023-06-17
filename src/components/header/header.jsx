@@ -7,7 +7,7 @@ import Me from '../../assets/Me.png'
 
 export default function header() {
   return (
-    <header>
+    <header id='#'>
       <div className='container header__container'>
         <h5>Hello I'am</h5>
         <h1>Akshay Singh</h1>
