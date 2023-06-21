@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 4rem;
-    padding: auto;
 }
 
 .service{
@@ -15,7 +14,7 @@
 
 .service:hover{
     background: transparent;
-    background-color: var(--color-primary-variant);
+    border-color: var(--color-primary-variant);
     cursor: default;
 }
 .service__head{
@@ -44,4 +43,28 @@
 }
 #service{
     height: 120vh;
+}
+
+@media screen and (max-width: 1024px){
+    .services__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        height: auto;
+    }
+    .service__head{
+        height: auto;
+    }
+    
+}
+
+@media screen and (max-width: 600px){
+    .services__container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+        height: auto;
+    }
+    .service__head{
+        height: auto;
+    }
+    
 }

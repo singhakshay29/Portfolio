@@ -28,9 +28,7 @@ export default function Service() {
           <ul className='service__list'>
             <li>
               <p>
-              I'm skilled in using the Bootstrap framework to create responsive and visually appealing websites.
-
-Once the design is finalized, the web designer works closely with web developers to bring the design to life using coding languages like HTML, CSS, and JavaScript.
+              I'm skilled in using the Bootstrap framework to create responsive and visually appealing websites.Once the design is finalized, the web designer works closely with web developers to bring the design to life using coding languages like HTML, CSS, and JavaScript.
               </p>
             </li>
           </ul>

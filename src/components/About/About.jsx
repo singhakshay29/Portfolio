@@ -15,28 +15,35 @@ export default function About() {
           </div>
         </div>
         <div className='about__content'>
+         
+          <p>
+          Courteous amd enthusiastic energetic front-end Developer As a full-stack developer, I am capable of developing both the front-end and back-end of web applications.
+I have a solid understanding of both front-end technologies such as HTML, CSS, and JavaScript as well as back-end technologies such as databases, servers, and APIs.
+          </p>
           <div className='about__cards'>
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Skills</h5>
-              <small>2 years</small>
             </article>
-            <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Skills</h5>
-              <small>2 years</small>
+            <div className="skills-set">
+            <article className='skills'>
+              <h5>HTML</h5>
             </article>
-            <article className='about__card'>
-              <FaAward className='about__icon'/>
-              <h5>Skills</h5>
-              <small>2 years</small>
+            <article className='skills'>
+              <h5>CSS</h5>
             </article>
+            <article className='skills'>
+              <h5>JAVASCRIPT</h5>
+            </article>
+            <article className='skills'>
+              <h5>BOOTSTRAP</h5>
+            </article>
+            <article className='skills'>
+              <h5>REACT.JS</h5>
+            </article>
+            </div>
+           
           </div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae molestias placeat saepe maiores quaerat! Eligendi, magni voluptatum quidem accusantium adipisci natus eum quibusdam praesentium, tempora libero possimus necessitatibus, aliquid consequuntur?
-
-          </p>
-          <a href='#contact' className='btn'>Contact Me</a>
 
 
 

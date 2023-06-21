@@ -2,6 +2,7 @@
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 2.5rem; 
+    margin-top: 7rem;
 }
 
 .portfolio__item{
@@ -25,4 +26,20 @@
     display: flex;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+@media screen and (max-width: 1024px) {
+    .portfolio__container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+        height: auto;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    .portfolio__container{
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        height: auto;
+    }
+    
 }
