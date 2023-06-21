@@ -7,19 +7,20 @@
 .about__me{
     width: 100%;
     aspect-ratio: 1/1;
-    border-radius: 3rem;
+    border-radius: 10rem;
     background: linear-gradient(var(--color-primary),transparent);
     /* background: linear-gradient(360deg,transparent,var(--color-primary),transparent); */
     border-radius: 12rem 12rem 0 0;
     display: grid;
     place-items: centre;
     padding: 2rem 1.5rem 1.5rem 1.5rem;
-    /* overflow: hidden; */
+    overflow: hidden;
+    height: 22rem;
 }
 
 .about__me-image{
-    border-radius: 2rem;
-    overflow: hidden;
+    border-radius: 10rem;
+    /* overflow: hidden; */
     transform-origin: rotate(10deg);
     transition: var(--transition);
 }
@@ -78,6 +79,7 @@
     .about__me{
         width: 50%;
         margin: 2rem auto 4rem;
+        overflow: hidden;
     }
     .about__content p{
         margin: 1rem 0 1.5rem;

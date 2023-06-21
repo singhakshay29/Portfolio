@@ -1,7 +1,7 @@
 import React from 'react'
 import './About.css'
 import {FaAward} from 'react-icons/fa'
-import Subject from '../../assets/Subject 2.png'
+import Subject from '../../assets/Subject.png'
 
 export default function About() {
   return (
