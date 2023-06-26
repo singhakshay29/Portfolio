@@ -14,7 +14,7 @@ export default function Service() {
 
           <ul className='service__list'>
             <li>
-              <p>Responsive design refers to a web design approach that aims to create websites or applications. The goal is to ensure that the content and layout of a website automatically adjust to accommodate different screen resolutions, orientations, and devices, such as desktop computers, laptops, tablets, and mobile phones.
+              <p>The goal is to ensure that the content and layout of a website automatically adjust to accommodate different screen resolutions,
                 Key principles and techniques involved in responsive design include: Flexible Images,Media Queries,Mobile-First Approach
               </p>
             </li>

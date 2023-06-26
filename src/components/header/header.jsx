@@ -9,9 +9,9 @@ export default function header() {
   return (
     <header id='# '>
       <div className='container header__container'>
-        <h5>Hello I'am</h5>
+        <h3>Hello I'am</h3>
         <h1>Akshay Singh</h1>
-        <h4 className='text-light'> Full Stack Developer</h4>
+        <h2 className='text-light'> Full Stack Developer</h2>
         <CTA/>
         <HeaderSocial/>
         <div className='me'>

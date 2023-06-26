@@ -16,30 +16,30 @@ export default function About() {
         </div>
         <div className='about__content'>
          
+          <div className='about__cards'>
           <p>
           Courteous amd enthusiastic energetic front-end Developer As a full-stack developer, I am capable of developing both the front-end and back-end of web applications.
 I have a solid understanding of both front-end technologies such as HTML, CSS, and JavaScript as well as back-end technologies such as databases, servers, and APIs.
           </p>
-          <div className='about__cards'>
             <article className='about__card'>
-              <FaAward className='about__icon'/>
+            <FaAward className='about__icon'/>
               <h5>Skills</h5>
             </article>
             <div className="skills-set">
             <article className='skills'>
-              <h5>HTML</h5>
+              <h5> <FaAward className='about__icon'/>HTML</h5>
             </article>
             <article className='skills'>
-              <h5>CSS</h5>
+              <h5> <FaAward className='about__icon'/>CSS</h5>
             </article>
             <article className='skills'>
-              <h5>JAVASCRIPT</h5>
+              <h5> <FaAward className='about__icon'/>JAVASCRIPT</h5>
             </article>
             <article className='skills'>
-              <h5>BOOTSTRAP</h5>
+              <h5> <FaAward className='about__icon'/>BOOTSTRAP</h5>
             </article>
             <article className='skills'>
-              <h5>REACT.JS</h5>
+              <h5> <FaAward className='about__icon'/>REACT.JS</h5>
             </article>
             </div>
            

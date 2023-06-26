@@ -1,62 +1,38 @@
 .about__container{
-    display: grid;
-    grid-template-columns: 35% 50%;
-    gap: 15%;
-}
-
-.about__me{
-    width: 100%;
-    aspect-ratio: 1/1;
-    border-radius: 10rem;
-    background: linear-gradient(var(--color-primary),transparent);
-    /* background: linear-gradient(360deg,transparent,var(--color-primary),transparent); */
-    border-radius: 12rem 12rem 0 0;
-    display: grid;
-    place-items: centre;
-    padding: 2rem 1.5rem 1.5rem 1.5rem;
-    overflow: hidden;
-    height: 22rem;
-}
-
-.about__me-image{
-    border-radius: 10rem;
-    /* overflow: hidden; */
-    transform-origin: rotate(10deg);
-    transition: var(--transition);
-}
-
-/* .about__me-image:hover{
-    transform: rotate(0);
-} */
-
-/* .about__cards{
     display: flex;
-    flex-direction: column;
-} */
+    position: relative;
+}
 
-/* .about__card{
-    background-color: var(--color-bg-variant);
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    text-align: center;
-    transition: var(--transition);
-    
+.about_me-image{
+    background: linear-gradient(var(--color-primary),transparent);
+    width: 22rem;
+    height: 24rem;
+    position: absolute;
+    border-radius: 12rem 12rem 0 0;
+    padding: 2.5rem 1.5rem 1rem 1.5rem;
+    overflow: hidden;
+    margin-top: 3rem;
+}
 
-} */
+.about__content {
+    left: calc(50% - 2rem);
+    position: absolute;
+}
 .about__cards{
     border: 1px solid transparent;
     border-radius: 1rem;
     text-align: center;
     overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.1); 
+    position: absolute;
+    margin-top: 45px;
+    padding: 1rem;
 }
 .about__icon{
     color: var(--color-primary);
-    font-size: 1.4rem;
-    margin: 1rem;
-}
-.about__content p{
-    margin-top: 100px;
-    color: var(--color-light);
+    font-size: 1rem;
+    margin-top: 1.2rem;
+    
 }
 .skills-set{
     margin: 10px;
@@ -67,23 +43,38 @@
     background-color: var(--color-bg-variant);
     border: 1px solid transparent;
     border-radius:1rem ;
-    text-align: center;
-    margin: 5px;
+    margin: 4px;
+    width: 280px;
 }
-@media screen and (max-width: 600px){
-    .about__container{
-        grid-template-columns: 1fr;
-        gap: 0;
-        height: auto;
+@media screen and (max-width: 991px){
+    .about_me-image{
+        display: none;
     }
-    .about__me{
-        width: 50%;
-        margin: 2rem auto 4rem;
-        overflow: hidden;
+    .about__cards{
+        margin-top: 55px;
     }
-    .about__content p{
-        margin: 1rem 0 1.5rem;
+
+
+    .about__content{
+       /* position: relative; */
+       display: flex;
+       justify-content: center;
+       left: 50%;
+        
     }
 
     
+}
+@media screen and (max-width: 767px){
+   
+   .about__cards{
+       margin-top: 15px;
+   }
+   .skills-set{
+    display: inline;
+   }
+   .skills{
+    /* margin-left: 10%; */
+    /* overflow: hidden; */
+   }
 }

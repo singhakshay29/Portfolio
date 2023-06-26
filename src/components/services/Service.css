@@ -51,9 +51,9 @@
         gap: 2rem;
         height: auto;
     }
-    .service__head{
-        height: auto;
-    }
+    /* .service__head{
+        height: 110vh;
+    } */
     
 }
 
@@ -68,3 +68,22 @@
     }
     
 }
+
+
+/* @media screen and (max-width: 991px){
+    
+ }
+ 
+ @media screen and (max-width: 767px){
+     
+     .scroll__down{
+         display: none;
+     }
+ }
+ @media screen and (max-width: 479px){
+     
+ 
+     .header__Socials{
+         display: none;
+     }
+ } */
