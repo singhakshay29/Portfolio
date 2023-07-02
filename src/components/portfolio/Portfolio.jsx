@@ -1,6 +1,7 @@
 import React from 'react'
 import './Portfolio.css'
 import project1 from '../../assets/project1.png'
+import project2 from '../../assets/Project2.png'
 export default function Portfolio() {
   return (
    <section id='portfolio'>
@@ -19,12 +20,12 @@ export default function Portfolio() {
        </article>
       <article className='portfolio__item'>
         <div className='portfolio__item-image'>
-          <img src="img" alt='pic'/>
+          <img src={project2} alt='pic'/>
         </div>
-        <h3>Portfolio Title Name</h3>
+        <h3>Movie Deck</h3>
         <div className="portfolio__item-cta">
-       <a href='#abc' className='btn' target='_blank'>Github</a>
-        <a href='#https' className='btn btn-primary' target='_blank'>Live Demo</a>
+       <a href='https://github.com/singhakshay29/HTML-and-CSS-for-Movie-Deck---JS-currying-Debouncing-JS-Project-Building-Sessi---gbv4p6pdeupf' className='btn' target='_blank'>Github</a>
+        <a href='https://singhakshay29.github.io/HTML-and-CSS-for-Movie-Deck---JS-currying-Debouncing-JS-Project-Building-Sessi---gbv4p6pdeupf/' className='btn btn-primary' target='_blank'>Live Demo</a>
        </div>
        </article>
       <article className='portfolio__item'>
