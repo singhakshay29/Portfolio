@@ -57,11 +57,13 @@
     
 }
 
-@media screen and (max-width: 600px){
+@media screen and (max-width: 991px){
     .services__container{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr,1fr;
         gap: 1.5rem;
-        height: auto;
+    }
+    #service{
+        margin-top: 10rem;
     }
     .service__head{
         height: auto;
@@ -70,20 +72,9 @@
 }
 
 
-/* @media screen and (max-width: 991px){
-    
- }
- 
  @media screen and (max-width: 767px){
-     
-     .scroll__down{
-         display: none;
-     }
+    .services__container{
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
  }
- @media screen and (max-width: 479px){
-     
- 
-     .header__Socials{
-         display: none;
-     }
- } */
