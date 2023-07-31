@@ -14,8 +14,8 @@ export default function Service() {
 
           <ul className='service__list'>
             <li>
-              <p>The goal is to ensure that the content and layout of a website automatically adjust to accommodate different screen resolutions,
-                Key principles and techniques involved in responsive design include: Flexible Images,Media Queries,Mobile-First Approach
+              <p>
+              The goal is to ensure that the content and layout of a website automatically adjust to accommodate different screen resolutions. Key principles and techniques involved in responsive design include Flexible Images, media queries, and a Mobile-First approach.
               </p>
             </li>
           </ul>
@@ -28,7 +28,7 @@ export default function Service() {
           <ul className='service__list'>
             <li>
               <p>
-              I'm skilled in using the Bootstrap framework to create responsive and visually appealing websites.Once the design is finalized, the web designer works closely with web developers to bring the design to life using coding languages like HTML, CSS, and JavaScript.
+              I'm skilled in using the Bootstrap framework to create responsive and visually appealing websites. Once the design is finalised, the web designer works closely with web developers to bring the design to life using coding languages like HTML, CSS, and JavaScript.
               </p>
             </li>
           </ul>
@@ -41,9 +41,7 @@ export default function Service() {
           <ul className='service__list'>
             <li>
               <p>
-              I can design and develop web applications while ensuring that they are optimized for usability and performance.
-
-Key principles and techniques involved in responsive design include: Flexible Images,Media Queries,Mobile-First Approach
+              I can design and develop web applications while ensuring that they are optimised for usability and performance. Key principles and techniques involved in responsive design include Flexible Images, media queries, and a mobile-First approach.
               </p>
             </li>
           </ul>

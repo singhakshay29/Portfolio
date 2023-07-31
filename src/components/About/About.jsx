@@ -18,8 +18,7 @@ export default function About() {
          
           <div className='about__cards'>
           <p>
-          Courteous amd enthusiastic energetic front-end Developer As a full-stack developer, I am capable of developing both the front-end and back-end of web applications.
-I have a solid understanding of both front-end technologies such as HTML, CSS, and JavaScript as well as back-end technologies such as databases, servers, and APIs.
+          Courteous and enthusiastic front-end developers As a full-stack developer, I am capable of developing both the front-end and back-end of web applications. I have a solid understanding of both front-end technologies such as HTML, CSS, and JavaScript as well as back-end technologies such as databases, servers, and APIs.
           </p>
             <article className='about__card'>
             <FaAward className='about__icon'/>
