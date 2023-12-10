@@ -1,80 +1,83 @@
-.about__container{
+.about__container {
+  display: flex;
+}
+.about_me-image {
+  background: linear-gradient(var(--color-primary), transparent);
+  width: 22rem;
+  height: 24rem;
+  position: absolute;
+  border-radius: 12rem 12rem 0 0;
+  padding: 2.5rem 1.5rem 1rem 1.5rem;
+  overflow: hidden;
+  margin-top: 3rem;
+}
+
+.about__cards {
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  text-align: center;
+  overflow: hidden;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.about__icon {
+  color: var(--color-primary);
+  font-size: 1rem;
+  margin-top: 1.2rem;
+}
+.skills-set {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+.skills {
+  background-color: var(--color-bg-variant);
+  border: 1px solid transparent;
+  border-radius: 1rem;
+  margin: 4px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.logoSkills {
+  width: 80px;
+  border-radius: 10px;
+}
+.sms {
+  margin-top: 10px;
+}
+.sms2 {
+  margin-top: 5px;
+}
+.sms3 {
+  margin-top: 15px;
+}
+.bot {
+  margin-top: 10px;
+}
+.bot2 {
+  margin-top: 25px;
+}
+
+@media screen and (max-width: 991px) {
+  .about_me-image {
+    display: none;
+  }
+  .about__cards {
+    margin-top: 55px;
+  }
+
+  .about__content {
     display: flex;
-    position: relative;
+    justify-content: center;
+    left: 50%;
+  }
 }
-
-.about_me-image{
-    background: linear-gradient(var(--color-primary),transparent);
-    width: 22rem;
-    height: 24rem;
-    position: absolute;
-    border-radius: 12rem 12rem 0 0;
-    padding: 2.5rem 1.5rem 1rem 1.5rem;
-    overflow: hidden;
-    margin-top: 3rem;
-}
-
-.about__content {
-    left: calc(50% - 2rem);
-    position: absolute;
-}
-.about__cards{
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    text-align: center;
-    overflow: hidden;
-    background-color: rgba(255, 255, 255, 0.1); 
-    position: absolute;
-    margin-top: 45px;
-    padding: 1rem;
-}
-.about__icon{
-    color: var(--color-primary);
-    font-size: 1rem;
-    margin-top: 1.2rem;
-    
-}
-.skills-set{
-    margin: 10px;
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-}
-.skills{
-    background-color: var(--color-bg-variant);
-    border: 1px solid transparent;
-    border-radius:1rem ;
-    margin: 4px;
-    width: 280px;
-}
-@media screen and (max-width: 991px){
-    .about_me-image{
-        display: none;
-    }
-    .about__cards{
-        margin-top: 55px;
-    }
-
-
-    .about__content{
-       /* position: relative; */
-       display: flex;
-       justify-content: center;
-       left: 50%;
-        
-    }
-
-    
-}
-@media screen and (max-width: 767px){
-   
-   .about__cards{
-       margin-top: 15px;
-   }
-   .skills-set{
+@media screen and (max-width: 767px) {
+  .about__cards {
+    margin-top: 15px;
+  }
+  .skills-set {
     display: inline;
-   }
-   .skills{
-    /* margin-left: 10%; */
-    /* overflow: hidden; */
-   }
+  }
 }
